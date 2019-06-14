@@ -2,4 +2,4 @@
 
 [FSPagerView](https://github.com/WenchaoD/FSPagerView) swift 转 OC
 
-无需oc引用swift 增大包
+若项目都是OC代码，引用FSPager轮播。无需OC引用swift而增大包
