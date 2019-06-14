@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit', 'Foundation'
   s.module_name = 'FSPagerView_OC'
  
-  s.source_files = 'FSPagerView_OC/FSPagerView/**/*.{h,m}'
+  s.source_files = 'FSPagerView_OC/FSPagerView/*.{h,m}'
 
 end
 

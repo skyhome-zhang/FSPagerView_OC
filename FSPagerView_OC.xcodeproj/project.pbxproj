@@ -122,7 +122,7 @@
 		A40D771622B3A4320030B51B /* FSPagerView_OC */ = {
 			isa = PBXGroup;
 			children = (
-				A40D774922B3A45B0030B51B /* FSPageView */,
+				A40D774922B3A45B0030B51B /* FSPagerView */,
 				A40D771722B3A4320030B51B /* AppDelegate.h */,
 				A40D771822B3A4320030B51B /* AppDelegate.m */,
 				A40D771A22B3A4320030B51B /* ViewController.h */,
@@ -154,7 +154,7 @@
 			path = FSPagerView_OCUITests;
 			sourceTree = "<group>";
 		};
-		A40D774922B3A45B0030B51B /* FSPageView */ = {
+		A40D774922B3A45B0030B51B /* FSPagerView */ = {
 			isa = PBXGroup;
 			children = (
 				A40D776422B3A6800030B51B /* FSPageControl.h */,
@@ -172,7 +172,7 @@
 				A40D776B22B3A6800030B51B /* FSPagerViewTransformer.h */,
 				A40D776922B3A6800030B51B /* FSPagerViewTransformer.m */,
 			);
-			path = FSPageView;
+			path = FSPagerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
