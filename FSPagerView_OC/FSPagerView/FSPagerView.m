@@ -94,6 +94,7 @@
 - (void)setRemovesInfiniteLoopForSingleItem:(BOOL)removesInfiniteLoopForSingleItem {
     _removesInfiniteLoopForSingleItem = removesInfiniteLoopForSingleItem;
     [self reloadData];
+    [self.collectionView.collectionViewLayout invalidateLayout];
 }
 
 - (UIPanGestureRecognizer *)panGestureRecognizer {
@@ -351,7 +352,6 @@
 - (void)reloadData {
     self.collectionViewLayout.needsReprepare = YES;
     [self.collectionView reloadData];
-    [self.collectionView.collectionViewLayout invalidateLayout];
 }
 
 /// Selects the item at the specified index and optionally scrolls it into view.
