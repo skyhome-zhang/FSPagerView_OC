@@ -59,6 +59,7 @@
     _isInfinite = isInfinite;
     self.collectionViewLayout.needsReprepare = YES;
     [self.collectionView reloadData];
+    [self.collectionView.collectionViewLayout invalidateLayout];
 }
 
 - (void)setAlwaysBounceHorizontal:(BOOL)alwaysBounceHorizontal {
@@ -350,6 +351,7 @@
 - (void)reloadData {
     self.collectionViewLayout.needsReprepare = YES;
     [self.collectionView reloadData];
+    [self.collectionView.collectionViewLayout invalidateLayout];
 }
 
 /// Selects the item at the specified index and optionally scrolls it into view.
