@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "FSPagerView_OC"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "FSPagerView_OC ios SDK"
   s.homepage         = "https://github.com/skyhome-zhang/FSPagerView_OC.git"
   s.license          = {:type => "MIT", :file => "LICENSE"}
