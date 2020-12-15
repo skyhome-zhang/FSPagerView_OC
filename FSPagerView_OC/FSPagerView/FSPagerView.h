@@ -87,6 +87,9 @@ IB_DESIGNABLE @interface FSPagerView : UIView
 /// A Boolean value indicates that whether the pager view has infinite items. Default is false.
 @property (nonatomic, assign) IBInspectable BOOL isInfinite;
 
+/// The scrollEnabled of the the pager view. Default is YES.
+@property (nonatomic, assign) IBInspectable BOOL scrollEnabled;
+
 /// A Boolean value that determines whether bouncing always occurs when horizontal scrolling reaches the end of the content view.
 @property (nonatomic, assign) IBInspectable BOOL alwaysBounceHorizontal;
 

@@ -62,6 +62,12 @@
     [self.collectionView.collectionViewLayout invalidateLayout];
 }
 
+- (void)setScrollEnabled:(BOOL)scrollEnabled
+{
+    _scrollEnabled = scrollEnabled;
+    self.collectionView.scrollEnabled = scrollEnabled;
+}
+
 - (void)setAlwaysBounceHorizontal:(BOOL)alwaysBounceHorizontal {
     _alwaysBounceHorizontal = alwaysBounceHorizontal;
     self.collectionView.alwaysBounceHorizontal = alwaysBounceHorizontal;
